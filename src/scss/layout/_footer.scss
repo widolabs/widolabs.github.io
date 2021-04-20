@@ -29,14 +29,13 @@
 }
 
 @include media(">medium") {
-  .site-footer-inner {
-    justify-content: space-between;
-  }
+  // .site-footer-inner {
+  //   justify-content: space-between;
+  // }
 
-  .footer-links {
-    flex: 50%;
-    order: 1;
-    margin-bottom: 0;
-    justify-content: flex-end;
-  }
+  // .footer-links {
+  //   flex: 50%;
+  //   order: 1;
+  //   margin-bottom: 0;
+  // }
 }

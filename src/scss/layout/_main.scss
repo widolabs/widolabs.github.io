@@ -21,6 +21,10 @@ main {
 }
 
 @include media( '>medium' ) {
+    .content {
+        padding-left: 96px;
+    }
+    
     .content-inner {
         max-width: 448px;
     }
