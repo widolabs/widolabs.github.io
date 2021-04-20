@@ -16,6 +16,10 @@
 .hero-form {
   max-width: 440px;
   margin: 0 auto;
+
+	label {
+		display: none;
+	}
 }
 
 .hero-illustration {
