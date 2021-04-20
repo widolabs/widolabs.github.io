@@ -2,35 +2,26 @@
     background: color(bg, 2);
 }
 
-.body-wrap {
+.content {
     background: color(bg, 1);
     overflow: hidden;
+    padding: 0 24px;
+    max-width: 1024px;
+    margin: 0 auto;
+    
     /* Sticky footer */
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-}
-
-.boxed-container {
-    max-width: 1440px;
-    margin: 0 auto;
-    @include shadow;
+    min-height: 100%;
+    height: 100%;
 }
 
 main {
     flex: 1 0 auto;
 }
 
-.section-inner {
-    position: relative; /* To always display inner elements above pseudo decorative stuff */
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
-
 @include media( '>medium' ) {
-
-    .section-inner {
-        padding-top: 88px;
-        padding-bottom: 88px;
+    .content-inner {
+        max-width: 448px;
     }
 }

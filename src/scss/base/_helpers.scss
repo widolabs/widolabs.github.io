@@ -1,33 +1,3 @@
-.container,
-.container-sm {
-	width: 100%;
-	margin: 0 auto;
-	padding-left: get-content-padding(mobile);
-	padding-right: get-content-padding(mobile);
-
-	@include media( '>small' ) {
-		padding-left: get-content-padding(desktop);
-		padding-right: get-content-padding(desktop);
-	}
-}
-
-.container {
-	max-width: $container__width + ( get-content-padding(desktop) * 2 );
-}
-
-.container-sm {
-	max-width: $container__width-sm + ( get-content-padding(desktop) * 2 );
-}
-
-.container {
-
-    .container-sm {
-		max-width: $container__width-sm;
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
 /* Text meant only for screen readers. */
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
